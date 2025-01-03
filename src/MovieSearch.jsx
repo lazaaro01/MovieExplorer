@@ -78,7 +78,7 @@ const MovieSearch = () => {
         {loading && <p className="text-center text-xl">Carregando...</p>}
 
         {selectedMovie ? (
-          <div className="text-center bg-gray-200 bg-opacity-80 p-6 rounded-lg shadow-lg">
+          <div className="text-center bg-gray-600 bg-opacity-80 p-6 rounded-lg shadow-lg">
             <h2 className="text-3xl font-bold">{selectedMovie.Title}</h2>
             <img
               src={selectedMovie.Poster}
@@ -87,13 +87,13 @@ const MovieSearch = () => {
             />
             <p><strong>Ano:</strong> {selectedMovie.Year}</p>
             <p><strong>Tipo:</strong> {selectedMovie.Type}</p>
-            <p className="text-gray-800"><strong>Sinopse:</strong> {selectedMovie.Plot}</p>
+            <p className="text-gray-200"><strong>Sinopse:</strong> {selectedMovie.Plot}</p>
             {selectedMovie.Type === "series" && selectedMovie.totalSeasons && (
               <p><strong>Temporadas:</strong> {selectedMovie.totalSeasons}</p>
             )}
             <button
               onClick={() => setSelectedMovie(null)}
-              className="bg-gray-600 text-white p-2 rounded-md mt-4 hover:bg-gray-700 transition-all"
+              className="bg-gray-900 text-white p-2 rounded-md mt-4 hover:bg-gray-700 transition-all"
             >
               Voltar aos Resultados
             </button>
