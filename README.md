@@ -20,17 +20,15 @@ Este é um projeto simples de busca de filmes e séries usando a API OMDb. A apl
 
 ### Desktop
 
-<div style="display: flex; justify-content: space-between; gap: 20px;">
-  <img src="/src/assets/img/desktop-layout.png" width="45%" alt="Desktop Layout" />
-  <img src="/src/assets/img/desktop-layout2.png" width="45%" alt="Desktop Layout 2" />
-</div>
+![Desktop Layout](/src/assets/img/desktop-layout.png)
+
+![Desktop Layout 2](/src/assets/img/desktop-layout2.png)
 
 ### Mobile
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="/src/assets/img/mobile-layout.png?raw=true" width="300" alt="Mobile Layout" />
-  <img src="/src/assets/img/mobile-layout2.png?raw=true" width="300" alt="Mobile Layout 2" />
-</div>
+<img src="/src/assets/img/mobile-layout.png?raw=true" width="300" alt="Mobile Layout" />
+
+<img src="/src/assets/img/mobile-layout2.png?raw=true" width="300" alt="Mobile Layout 2" />
 
 ## Como Rodar o Projeto
 
